@@ -1,0 +1,108 @@
+/* ChapterDetail.css */
+
+/* Styling untuk kontainer chapter */
+.chapter-container {
+  /*max-width: 1200px;*/
+  /*margin: 0 auto;*/
+  padding: 10px;
+  background-color: #000;
+  /*border-radius: 10px;*/
+}
+
+.chapter-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/*.chapter-images {*/
+/*display: grid;*/
+/*grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));*/
+/*padding: 10px;*/
+/*margin-bottom: 20px;*/
+/*}*/
+
+.chapter-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  /*border-radius: 10px;*/
+  /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+}
+
+.chapter-navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chapter-navigation button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px 0;
+}
+
+.chapter-navigation button:hover {
+  background-color: #555;
+}
+
+.chapter-navigation button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Styling untuk daftar chapter */
+.chapter-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.chapter-list li {
+  margin: 5px 0;
+}
+
+.chapter-list a {
+  background-color: #000;
+  color: white;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: block;
+  margin: 5px 0;
+}
+
+.chapter-list a:hover {
+  background-color: #222;
+}
+
+.loading,
+.error {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #777;
+  padding: 20px;
+}
+
+.error {
+  color: red;
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+  .chapter-title {
+    font-size: 1.5rem;
+  }
+
+  .chapter-images {
+    grid-template-columns: 1fr;
+  }
+}

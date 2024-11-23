@@ -1,0 +1,7 @@
+/* Set background color seluruh aplikasi menjadi hitam */
+body {
+  background-color: black;
+  color: white; /* Menyesuaikan warna teks agar kontras */
+  margin: 0;
+  padding: 0;
+}

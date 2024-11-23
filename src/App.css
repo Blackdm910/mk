@@ -1,0 +1,9 @@
+/* App.css */
+body {
+  background-color: black;
+  color: white; /* Menyesuaikan warna teks agar lebih terlihat dengan background hitam */
+}
+
+.App {
+  min-height: 100vh; /* Agar latar belakang hitam mengisi seluruh layar */
+}

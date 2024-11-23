@@ -1,0 +1,41 @@
+.chapter-list {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.chapter-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+}
+
+.chapter-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chapter-link {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.chapter-title {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.chapter-last-updated {
+  font-size: 0.9em;
+  color: #777;
+}
